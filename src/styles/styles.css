@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: Montserrat;
+  box-sizing: border-box;
+  color: #333;
+}
+
+body {
+  font-size: 16px;
+  background-image: url(https://cdn.pixabay.com/photo/2019/05/23/15/54/vintage-4224236_960_720.jpg);
+}
+
+.card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 40px;
+  padding: 1rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 40vw;
+  transform: translate(-50%, -50%);
+}
+.link {
+  display: block !important;
+}
+
+.cardBody {
+  margin-top: 2rem;
+}
+
+.inputGroup {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+input {
+  border: none;
+  padding: 0.5rem 0.1rem;
+  width: 100%;
+  border-radius: 2px;
+  border-bottom: 1px solid #eee;
+  transition: all 0.5s;
+}
+
+input:focus {
+  border-bottom: 1px solid #ccc;
+}
+
+.chatroom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.join {
+  background: #f7c52a;
+  padding: 0.25rem 1rem;
+  border-radius: 2px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
